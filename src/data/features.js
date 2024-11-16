@@ -1,31 +1,31 @@
 const features = [
     {
         id: 1,
-        name: "Simple Bookmaring",
+        name: "AI-Powered Assistant",
         details: {
             imageUrl: "images/illustration-features-tab-1.svg",
-            title: "Bookmark in one click",
-            description: "Organize your bookmarks however you like. Our simple drag-n-drop interface gives you complete control over how you manage your favorite websites.",
+            title: "AI-Powered Assistant",
+            description: "Seamlessly integrated with your company’s knowledge base, our AI assistant provides instant answers to questions and step-by-step guides tailored to your unique processes. Compatible with platforms like Confluence and 1C-Bitrix Wiki, Butterboard ensures employees are never left guessing.",
             link: "#",
         },
     },
     {
         id: 2,
-        name: "Speedy Searching",
+        name: "Personalized Journey",
         details: {
             imageUrl: "images/illustration-features-tab-2.svg",
-            title: "Intelligent search",
-            description: "Get quick results with our intelligent search feature. Find your bookmarks effortlessly and save time navigating through your favorite websites.",
+            title: "Personalized Onboarding Journey",
+            description: "Every employee is unique, and so is their onboarding. Butterboard leverages insights from interviews and assessments to craft a tailored onboarding plan, focusing on skill gaps, social integration, and role-specific knowledge.",
             link: "#",
         },
     },
     {
         id: 3,
-        name: "Speedy Sharing",
+        name: "Gamified Onboarding Process",
         details: {
             imageUrl: "images/illustration-features-tab-3.svg",
-            title: "Easy sharing",
-            description: "Share your bookmarks seamlessly with others. Our intuitive sharing options allow you to collaborate and spread the word about your favorite websites.",
+            title: "Gamified Onboarding Process",
+            description: "Make onboarding fun and engaging with interactive challenges, rewards, and progress tracking. Turn learning company policies and workflows into an achievement-driven journey that motivates and excites.",
             link: "#",
         },
     },

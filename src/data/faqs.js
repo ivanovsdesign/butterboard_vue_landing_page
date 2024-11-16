@@ -1,24 +1,35 @@
 const faqs = [
     {
         id: 1,
-        title: "What is bookmark?",
-        description: "A bookmark is a feature that allows users to save the URL of a webpage for quick access later. It acts as a shortcut to the webpage, allowing you to navigate back to it without having to remember or search for the URL. Bookmarks are handy for keeping track of your favorite websites, important articles, or resources that you frequently visit. They help you organize your online content and improve your browsing experience.",
+        title: "What is Butterboard?",
+        description: "Butterboard is an AI-powered onboarding assistant designed to provide a smoother onboarding experience. It connects to your company's knowledge base, personalizes the onboarding journey for each employee, and gamifies the process to enhance engagement and productivity. With Butterboard, new hires can quickly adapt to their roles and become valuable team members.",
     },
     {
         id: 2,
-        title: "How can I request a new browser?",
-        description: "To request a new browser, you can visit our official website and navigate to the 'Feedback' or 'Contact Us' section. There, you can submit your request for a new browser version or feature. Additionally, you can participate in our community forums or reach out to our support team with your suggestions. We value user feedback and use it to enhance our products, so your input is essential in shaping the future of our browser.",
+        title: "How does Butterboard personalize onboarding?",
+        description: "Using data from interviews and assessments, Butterboard identifies areas where new employees might need additional support. It then creates a customized onboarding plan tailored to each individual, focusing on both their strengths and areas for improvement, ensuring a well-rounded and effective onboarding process.",
     },
     {
         id: 3,
-        title: "Is there a mobile app available?",
-        description: "Yes, we offer a mobile app for both Android and iOS platforms. You can download our mobile app from the respective app stores (Google Play Store for Android and the App Store for iOS). The mobile app allows you to sync your bookmarks, browsing history, and other settings across all your devices. You can access your bookmarks on the go, and it provides a seamless browsing experience across your mobile and desktop devices.",
+        title: "Does Butterboard integrate with existing tools?",
+        description: "Yes! Butterboard integrates seamlessly with popular company knowledge bases like Confluence and 1C-Bitrix Wiki. This ensures that employees have quick access to the most relevant and up-to-date information, streamlining their learning process.",
     },
     {
         id: 4,
-        title: "What about other Chromium browsers?",
-        description: "Our bookmarking feature is compatible with various Chromium-based browsers, including popular ones like Google Chrome, Microsoft Edge, Brave, Vivaldi, and others. As long as you are using a version of these browsers that is 62 or higher, you can enjoy the benefits of our bookmarking tool. The integration is seamless and allows you to manage your bookmarks efficiently, regardless of the Chromium browser you prefer.",
+        title: "Is the onboarding process gamified?",
+        description: "Absolutely! Butterboard includes gamification elements such as challenges, rewards, and progress tracking. These features make onboarding more engaging and help motivate employees to complete their onboarding journey efficiently while enjoying the process.",
+    },
+    {
+        id: 5,
+        title: "Is Butterboard suitable for remote teams?",
+        description: "Yes, Butterboard is designed to support remote, hybrid, and in-office teams alike. Its digital-first approach ensures that all employees, regardless of location, receive the same personalized and seamless onboarding experience.",
+    },
+    {
+        id: 6,
+        title: "How does Butterboard ensure data security?",
+        description: "Data security is a top priority for Butterboard. We adhere to strict data protection standards and integrate with your company's existing IT infrastructure to ensure all employee and company information is secure and confidential.",
     },
 ];
 
 export default faqs;
+

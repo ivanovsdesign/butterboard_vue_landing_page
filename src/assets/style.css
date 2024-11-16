@@ -2,3 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+.logo-text {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 1em;
+  }
+
+.logo-white {
+    color: white;
+    margin-left: 0;
+}
+
+.grayscale-image {
+    filter: grayscale(100%);
+    width: 10em;
+    opacity: 0.5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.grayscale-image-features {
+    filter: grayscale(100%);
+    opacity: 0.9;
+}
+
+@media (min-width: 1024px) {
+    .hero-section {
+      margin-left: 2rem; /* Larger margin for larger screens */
+    }
+  }

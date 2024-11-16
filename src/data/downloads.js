@@ -1,25 +1,18 @@
 const downloads = [
     {
         id: 1,
-        icon: "images/logo-chrome.svg",
-        title: "Add to Chrome",
-        subTitle: "Minimum version 62",
+        icon: "images/confluence-blue.svg",
+        title: "Integrate with Confluence",
+        subTitle: "Up to version 9.1",
         link: "#",
     },
     {
         id: 2,
-        icon: "images/logo-firefox.svg",
-        title: "Add to Firefox",
-        subTitle: "Minimum version 55",
+        icon: "images/bitrix-logo.png",
+        title: "Integrate with 1C Bitrix",
+        subTitle: "Coming soon",
         link: "#",
-    },
-    {
-        id: 3,
-        icon: "images/logo-opera.svg",
-        title: "Add to Opera",
-        subTitle: "Minimum version 46",
-        link: "#",
-    },
+    }
 ];
 
 export default downloads;

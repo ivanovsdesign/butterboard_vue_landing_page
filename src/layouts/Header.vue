@@ -13,7 +13,8 @@
     <div class="container mx-auto px-5">
         <header class="flex justify-between py-12 items-center">
             <div>
-                <a href="/"><img src="/images/logo-bookmark.svg" alt="Site Logo"></a>
+                <!-- <a href="/"><img src="/images/logo-bookmark.svg" alt="Site Logo"></a> -->
+                 <a href="/" class="logo-text">butterboard</a>
             </div>
             
             <nav class="flex justify-end flex-col md:flex-row">
