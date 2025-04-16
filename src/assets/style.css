@@ -11,6 +11,22 @@
     margin-left: 1em;
   }
 
+.logo-text-white {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 1em;
+    color: white;
+}
+
+.beta-text {
+  font-size: small;
+  font-weight: thin;
+  opacity: .5;
+}
+
 .logo-white {
     color: white;
     margin-left: 0;
@@ -34,3 +50,43 @@
       margin-left: 2rem; /* Larger margin for larger screens */
     }
   }
+
+  .highlight-text {
+    position: relative;
+    display: inline-block;
+}
+
+/* Selection-like animation */
+.highlight-text::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; /* Adjust thickness of the highlight */
+    background-color: #FFC059; /* Semi-transparent version of #FFC059 */
+    z-index: -1;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+}
+
+/* Animation on hover (optional) */
+.highlight-text:hover::after {
+    transform: scaleX(1);
+}
+
+/* Animation on page load (automatic) */
+.highlight-text::after {
+    animation: highlight 1s ease forwards;
+    animation-delay: 0.5s; /* Delay if needed */
+}
+
+@keyframes highlight {
+    from {
+        transform: scaleX(0);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
