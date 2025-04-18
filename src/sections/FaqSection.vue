@@ -24,9 +24,6 @@ let isOpen = ref(1);
                         <p v-show="isOpen === faq.id" class="bg-slate-50 px-6 font-theme-content text-md lg:text-lg py-5 text-gray-500 text-justify">{{ faq.description }}</p>
                     </template>
                 </ul>
-                <div class="flex justify-center mt-10">
-                    <LinkButton btn-type="primary" link="#" class="text-sm">More FAQs</LinkButton>
-                </div>
             </div>
         </section>
     </div>

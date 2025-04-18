@@ -1,33 +1,28 @@
 const faqs = [
     {
         id: 1,
-        title: "What is Butterboard?",
-        description: "Butterboard is an AI-powered onboarding assistant designed to provide a smoother onboarding experience. It connects to your company's knowledge base, personalizes the onboarding journey for each employee, and gamifies the process to enhance engagement and productivity. With Butterboard, new hires can quickly adapt to their roles and become valuable team members.",
+        title: "Почему автоматизация онбординга так важна?",
+        description: "До 40% новых сотрудников уходят из компании в первый год — чаще всего из-за неэффективной адаптации. Автоматизация позволяет снизить текучесть на 25% и сэкономить до 50% бюджета на онбординг уже в первый год работы с Butterboard[1][2].",
     },
     {
         id: 2,
-        title: "How does Butterboard personalize onboarding?",
-        description: "Using data from interviews and assessments, Butterboard identifies areas where new employees might need additional support. It then creates a customized onboarding plan tailored to each individual, focusing on both their strengths and areas for improvement, ensuring a well-rounded and effective onboarding process.",
-    },
-    {
-        id: 3,
-        title: "Does Butterboard integrate with existing tools?",
-        description: "Yes! Butterboard integrates seamlessly with popular company knowledge bases like Confluence and 1C-Bitrix Wiki. This ensures that employees have quick access to the most relevant and up-to-date information, streamlining their learning process.",
+        title: "Сколько времени HR и руководители экономят с Butterboard?",
+        description: "HR-специалисты сокращают время на оформление и сопровождение одного сотрудника с 5 до 2 часов. Руководители получают прозрачную аналитику и освобождают до 30% своего времени для развития команды и стратегических задач[1][2].",
     },
     {
         id: 4,
-        title: "Is the onboarding process gamified?",
-        description: "Absolutely! Butterboard includes gamification elements such as challenges, rewards, and progress tracking. These features make onboarding more engaging and help motivate employees to complete their onboarding journey efficiently while enjoying the process.",
+        title: "Какой экономический эффект дает внедрение Butterboard?",
+        description: "Для компании с 50 сотрудниками годовая экономия на автоматизации онбординга может составить до 500 000 рублей. Сокращаются расходы на повторный найм, обучение и время HR-отдела[2].",
     },
     {
         id: 5,
-        title: "Is Butterboard suitable for remote teams?",
-        description: "Yes, Butterboard is designed to support remote, hybrid, and in-office teams alike. Its digital-first approach ensures that all employees, regardless of location, receive the same personalized and seamless onboarding experience.",
+        title: "Насколько востребовано внедрение ИИ в HR?",
+        description: "47% HR-специалистов уже используют ИИ для оптимизации процессов найма и адаптации. Компании, внедрившие ИИ-решения, отмечают рост удержания сотрудников и повышение эффективности HR-команд[1].",
     },
     {
         id: 6,
-        title: "How does Butterboard ensure data security?",
-        description: "Data security is a top priority for Butterboard. We adhere to strict data protection standards and integrate with your company's existing IT infrastructure to ensure all employee and company information is secure and confidential.",
+        title: "С какими системами интегрируется Butterboard?",
+        description: "Платформа легко интегрируется с корпоративными вики и системами знаний, такими как Confluence, Notion и Bitrix. Это обеспечивает быстрый доступ к актуальной информации для всех сотрудников[2][3].",
     },
 ];
 
