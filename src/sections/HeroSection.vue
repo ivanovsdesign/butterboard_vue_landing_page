@@ -9,7 +9,7 @@
                 <p class="lg:text-xl mt-10 font-theme-content text-theme-grayish-blue text-center lg:text-left">Забудьте о бесконечных чатах, письмах и разрозненных документах. Вы запускаете онбординг для новых сотрудников в несколько кликов, а ИИ-ассистент сопровождает новичка с первого дня, отвечая на вопросы и помогая быстрее влиться в команду</p>
                 <div class="flex justify-center lg:justify-start mt-10">
                     <LinkButton btn-type="primary" link="#download-section">Начните уже сейчас</LinkButton>
-                    <LinkButton btn-type="muted" link="#download-section">Запросить демо</LinkButton>
+                    <LinkButton btn-type="muted" link="#subscribe">Запросить демо</LinkButton>
                 </div>
             </div>
             <div class="relative order-1 lg:order-none mb-20 lg:mt-0 lg:mb-0 lg:-mr-10">

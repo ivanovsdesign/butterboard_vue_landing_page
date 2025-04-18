@@ -14,7 +14,7 @@ const plans = [
     ],
     button: {
       text: "Попробовать бесплатно",
-      link: "#"
+      link: "#subscribe"
     }
   },
   {
@@ -31,14 +31,14 @@ const plans = [
     ],
     button: {
       text: "Запросить консультацию",
-      link: "#"
+      link: "#subscribe"
     }
   },
   {
     id: 3,
     name: "Advanced",
     price: "Индивидуально",
-    users: "от 100 сотрудников, on-premise",
+    users: "любое число сотрудников",
     features: [
       "Всё из Custom",
       "On-premise развертывание",
@@ -48,7 +48,7 @@ const plans = [
     ],
     button: {
       text: "Получить предложение",
-      link: "#"
+      link: "#subscribe"
     }
   }
 ];
@@ -86,8 +86,8 @@ const plans = [
           </div>
           <div class="flex justify-center mb-8">
             <LinkButton
-              :href="plan.button.link"
               btn-type="primary"
+              link="#subscribe"
             >
               {{ plan.button.text }}
             </LinkButton>

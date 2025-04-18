@@ -44,7 +44,7 @@ import features from '../data/features.js';
                             </p>
                             <div class="flex justify-center lg:justify-start mt-7">
                                 <LinkButton btn-type="primary" :link="feature.details.link">
-                                    More Info
+                                    Подробнее
                                 </LinkButton>
                             </div>
                         </div>

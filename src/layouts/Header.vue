@@ -50,16 +50,16 @@
                 </div>
                 <ul class="uppercase text-white text-md tracking-widest items-center flex flex-col mt-14">
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-t border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#features">Features</a>
+                        <a  @click="toggleMobileNav()" href="#features">Возможности</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#faq">FAQ</a>
+                        <a  @click="toggleMobileNav()" href="#faq">Информация</a>
                     </li>
                     <li class="hover:text-theme-secondary transition duration-200 py-4 border-b border-theme-grayish-blue w-full text-center">
-                        <a  @click="toggleMobileNav()" href="#subscribe">Subscribe</a>
+                        <a  @click="toggleMobileNav()" href="#subscribe">Связаться с нами</a>
                     </li>
                     <li class="bg-transparent border-2 rounded px-6 py-2 mt-6 w-full text-center cursor-pointer hover:text-theme-secondary transition duration-200">
-                        <a  @click="toggleMobileNav()" href="#download-section">Download</a>
+                        <a  @click="toggleMobileNav()" href="#download-section">Тарифы</a>
                     </li>
                 </ul>
                 <div class="flex justify-center items-end h-52">
