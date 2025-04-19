@@ -10,9 +10,9 @@ export default {
             colors: {
                 "theme-primary": "#FFC059",
                 "theme-secondary": "#000000",
-                "theme-grayish-blue": "#adadac",
+                "theme-grayish-blue": "#333333",
                 "theme-dark-blue": "#000000",
-                "theme-dark-blue-tp": "rgba(67, 37, 71, 0.9)",
+                "theme-dark-blue-tp": "#1c1c1c",
             },
         },
     },
