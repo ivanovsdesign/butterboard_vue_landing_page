@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch, onMounted } from 'vue';
+import { ref, watch, onMounted, onBeforeUnmount } from 'vue';
 
 const props = defineProps({
   value: {
@@ -13,6 +13,8 @@ const props = defineProps({
 });
 
 const displayValue = ref(0);
+const counterRef = ref(null);
+let observer = null;
 
 function animateValue(start, end, duration) {
   const startTime = performance.now();
@@ -28,17 +30,39 @@ function animateValue(start, end, duration) {
   requestAnimationFrame(update);
 }
 
+// When value prop changes, animate to new value
 watch(() => props.value, (newVal, oldVal) => {
   animateValue(oldVal || 0, newVal, props.duration);
 });
 
+function handleVisibility(entries) {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      // Relaunch animation every time the counter enters the viewport
+      animateValue(0, props.value, props.duration);
+    }
+  });
+}
+
 onMounted(() => {
-  animateValue(0, props.value, props.duration);
+  observer = new window.IntersectionObserver(handleVisibility, {
+    threshold: 0.5, // At least 50% visible
+  });
+  if (counterRef.value) {
+    observer.observe(counterRef.value);
+  }
+});
+
+onBeforeUnmount(() => {
+  if (observer && counterRef.value) {
+    observer.unobserve(counterRef.value);
+    observer.disconnect();
+  }
 });
 </script>
 
 <template>
-  <span class="animated-counter text-6xl font-bold font-theme-heading text-theme-primary">
+  <span ref="counterRef" class="animated-counter text-6xl font-bold font-theme-heading text-theme-primary">
     {{ displayValue }}
   </span>
 </template>

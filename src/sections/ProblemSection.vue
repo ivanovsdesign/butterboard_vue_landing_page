@@ -31,10 +31,10 @@ import AnimatedCounter from './AnimatedCounter.vue';
                 {{ problem.unit }}
               </span>
             </div>
-            <h3 class="font-theme-heading text-lg md:text-xl font-medium text-center lg:text-left mb-2">
+            <h3 class="font-theme-heading text-lg md:text-xl font-medium text-center lg:text-center mb-2">
               {{ problem.details.title }}
             </h3>
-            <p class="font-theme-content text-base text-theme-grayish-blue text-center lg:text-left mb-4">
+            <p class="font-theme-content text-base text-theme-grayish-blue text-center lg:text-center mb-4">
               {{ problem.details.description }}
             </p>
             <LinkButton btn-type="primary" :link="problem.details.link">
