@@ -10,8 +10,8 @@ let isOpen = ref(1);
     <div id="faq" class="container mx-auto px-5 md:w-4/5">
         <section class="py-16 pt-18">
             <div class="w-4/5 md:w-3/5 mx-auto">
-                <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">Frequently Asked Questions</h2>
-                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">Here are some of out FAQs. If you have any other quesitons you'd like answered please feel free to email us.</p>
+                <h2 class="text-3xl md:text-4xl font-theme-heading font-medium text-center">Часто задаваемые вопросы</h2>
+                <p class="text-theme-grayish-blue text-center mt-7 font-theme-content text-lg">Здесь собраны ответы на наиболее частые вопросы, которые помогут больше узнать о Butterboard</p>
             </div>
 
             <div class="mt-10 w-full lg:w-3/5 mx-auto">
