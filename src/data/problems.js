@@ -8,7 +8,7 @@ const problems = [
             imageUrl: "images/features/assistant.png",
             title: "в год теряет бизнес из-за текучести кадров",
             description: "*если сотрудник уходит в первые 1.5 месяца",
-            link: "#",
+            link: "#faq",
         },
     },
     {
@@ -20,7 +20,7 @@ const problems = [
             imageUrl: "images/features/assistant.png",
             title: "работы тимлидов и HR в течение года",
             description: "уходит на ответы на типовые вопросы новых сотрудников без ИИ-ассистента",
-            link: "#",
+            link: "#faq",
         },
     },
     {
@@ -32,7 +32,7 @@ const problems = [
             imageUrl: "images/features/assistant.png",
             title: "быстрее до целевого уровня продуктивности",
             description: "новые сотрудники быстрее начинают эффективно справляться с релаьными задачами, используя ИИ-ассистента",
-            link: "#",
+            link: "#faq",
         },
     },
 ];
